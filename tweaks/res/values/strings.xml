@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Optimiseur TV</string>
+    <string name="description">Garde la vidéo fluide et le Wi-Fi stable. Ne lit rien à l\'écran.</string>
+</resources>

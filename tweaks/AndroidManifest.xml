@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The speed fixes without the new home screen: no activity, no icon, nothing on screen. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.family.tweaks">
+
+    <!-- Talks to the TV's own adbd on 127.0.0.1. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:label="@string/app_name" android:allowBackup="false">
+        <service
+            android:name=".KeepAlive"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/keep_alive" />
+        </service>
+    </application>
+</manifest>

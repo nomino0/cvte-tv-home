@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ad and tracking networks Chrome can't reach while ad blocking is on (subdomains included).
+     Hold OK on Chrome on the home screen to switch it off for sites that refuse ad blockers. -->
+<resources>
+    <string-array name="ad_domains">
+        <!-- Google ads and analytics -->
+        <item>doubleclick.net</item>
+        <item>googlesyndication.com</item>
+        <item>googleadservices.com</item>
+        <item>adservice.google.com</item>
+        <item>google-analytics.com</item>
+        <item>googletagservices.com</item>
+        <item>app-measurement.com</item>
+        <!-- Ad exchanges -->
+        <item>amazon-adsystem.com</item>
+        <item>adnxs.com</item>
+        <item>criteo.com</item>
+        <item>criteo.net</item>
+        <item>pubmatic.com</item>
+        <item>rubiconproject.com</item>
+        <item>openx.net</item>
+        <item>casalemedia.com</item>
+        <item>indexww.com</item>
+        <item>smartadserver.com</item>
+        <item>adform.net</item>
+        <item>adsrvr.org</item>
+        <item>bidswitch.net</item>
+        <item>3lift.com</item>
+        <item>sharethrough.com</item>
+        <item>33across.com</item>
+        <item>contextweb.com</item>
+        <item>lijit.com</item>
+        <item>yieldmo.com</item>
+        <item>teads.tv</item>
+        <item>media.net</item>
+        <item>adroll.com</item>
+        <item>serving-sys.com</item>
+        <item>moatads.com</item>
+        <item>scorecardresearch.com</item>
+        <item>quantserve.com</item>
+        <item>spotxchange.com</item>
+        <item>springserve.com</item>
+        <item>infolinks.com</item>
+        <item>zedo.com</item>
+        <!-- "Recommended for you" boxes -->
+        <item>taboola.com</item>
+        <item>outbrain.com</item>
+        <item>mgid.com</item>
+        <item>revcontent.com</item>
+        <item>adskeeper.com</item>
+        <!-- Pop-ups and redirects common on streaming and download sites -->
+        <item>popads.net</item>
+        <item>popcash.net</item>
+        <item>propellerads.com</item>
+        <item>onclickads.net</item>
+        <item>adsterra.com</item>
+        <item>highperformanceformat.com</item>
+        <item>exoclick.com</item>
+        <item>exosrv.com</item>
+        <item>juicyads.com</item>
+        <item>trafficjunky.net</item>
+        <item>trafficstars.com</item>
+        <item>tsyndicate.com</item>
+        <item>hilltopads.net</item>
+        <item>clickadu.com</item>
+        <item>adcash.com</item>
+        <item>ad-maven.com</item>
+        <item>bidvertiser.com</item>
+        <item>a-ads.com</item>
+        <item>coinzilla.com</item>
+        <item>yllix.com</item>
+        <item>zeropark.com</item>
+        <item>galaksion.com</item>
+        <item>monetag.com</item>
+    </string-array>
+</resources>

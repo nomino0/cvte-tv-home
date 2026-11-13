@@ -1,0 +1,26 @@
+# CVTE board TP.SK518D.PB806, MediaTek mt5862_512m, Android 9 (userdebug), 512MB RAM, 1280x720 UI.
+# Sold under many names (seen as a fake "SMASNUG" Samsung). Settings app: com.cvte.settings,
+# launcher: com.cvte.tv.launcher.saturn (or .space on 8GB units), live TV: com.cvte.tv.setting.
+#
+# These are removed with `pm uninstall -k --user 0`: the files stay on the TV and
+# `cmd package install-existing <package>` brings any of them back (undo.sh does).
+# `pm disable-user` does NOT work on this firmware: it turns them back on when Android restarts.
+#
+# Remove a line (or put # in front) to keep that app. Tested: the TV starts normally without all of them.
+
+# Ads
+com.cvte.gaia.ad.service        # AdService. On some units it's a normal app: removing it deletes it.
+com.cvte.ad.spider              # SpiderAd (also the boot-video downloader)
+
+# Shop-window demo
+fusion.android.tv.demo          # RetailDemo
+
+# Screen sharing. Keep com.mediatek.androidbox (Kindlink) if you cast from a phone: it's the light one.
+com.maxhub.screenshare.server.tv   # MHshare, ~50MB of RAM in the background
+com.screenshare.platform           # ScreenShare
+com.waxrain.airplayer              # AirPin
+com.cvte.dssshare.dlna             # DLNAShare
+
+# Extras
+com.cvte.tv.weather             # Weather client
+com.seraphic.openinet.cvte      # OPEN BROWSER (old, runs in the background; TV Bro replaces it)

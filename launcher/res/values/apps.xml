@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Your household's apps. Edit, rebuild, reinstall. Pins changed on the TV (hold OK) are kept. -->
+<resources>
+    <!-- Pinned on first start, in this order. Apps that aren't installed are skipped. Max 6. -->
+    <string-array name="default_pins">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.phlox.tvwebbrowser</item>
+        <item>com.spotify.tv.android</item>
+    </string-array>
+
+    <!--
+      package | line shown under the name | glow colour 1 (top left) | glow colour 2 (bottom right)
+      Keep the colours dark: they light the whole screen. Apps not listed get a colour from their logo.
+    -->
+    <string-array name="app_styles">
+        <item>com.google.android.youtube.tv|Vidéos|#5A1818|#22324A</item>
+        <item>com.netflix.ninja|Films et séries|#420A0E|#18181C</item>
+        <item>com.spotify.tv.android|Musique|#0E4A26|#0C3540</item>
+        <item>com.phlox.tvwebbrowser|Navigateur web, sans publicités|#173878|#0C4250</item>
+        <item>com.android.chrome|Navigateur web|#173878|#0C4250</item>
+        <item>org.videolan.vlc|Vidéos et photos sur clé USB|#6A3A08|#2A1E10</item>
+    </string-array>
+</resources>

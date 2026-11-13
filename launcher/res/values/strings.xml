@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guard_label">Accueil : bouton Home</string>
+    <string name="guard_desc">Ouvre l\'accueil simplifié quand la TV affiche son ancien écran d\'accueil. Ne lit rien à l\'écran.</string>
+</resources>

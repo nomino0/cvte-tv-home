@@ -1,0 +1,9 @@
+# Build output and your private signing keys (updates must be signed with the same key: keep yours)
+build/
+*.apk
+*.idsig
+*.keystore
+
+# Copies of the TV's own apps and what install.sh changed on your TV: never publish these
+backup/
+state-*.txt
